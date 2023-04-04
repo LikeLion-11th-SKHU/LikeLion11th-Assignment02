@@ -1,0 +1,69 @@
+/* display, position 속성 1번 이상씩
+위치, 색상, 순서 줄 것
+layout폴더에 총 3가지 css, html, 브라우저캡쳐 */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-size: 14px;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+    color: #202124;
+}
+
+.leftHeader{
+
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.rightHeader{
+
+    float: right;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    
+    margin-right: 20px;
+    margin-top: 20px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.google{
+
+    display: block;
+    padding-top: 150px;
+
+    }
+
+.search{
+    width:600px;
+    margin: auto;
+    display:flex;
+    align-items: center;
+}
+.main_section{
+    /* display: block;
+    text-align: -webkit-center;
+    width: 584px;
+    height: 70px;
+    padding-top: 19px; */
+    width: 100%;
+    position: relative;
+}
+
+.item{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: 50px;
+
+}
