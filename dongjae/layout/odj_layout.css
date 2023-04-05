@@ -1,0 +1,14 @@
+#grid {
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+}
+#article {
+  dis
+  padding-left: 25px;
+  padding-right: 25px;
+}
+img {
+  display : block;
+  margin : auto;
+  width: 100px;
+}
