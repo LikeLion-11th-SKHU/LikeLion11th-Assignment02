@@ -1,14 +1,59 @@
+html, body {
+  width: 100%;
+  height: 100%
+}
+body {
+  margin: 0;
+}
 #grid {
   display: grid;
-  grid-template-columns: 300px 1fr 300px;
+  grid-template-columns: 200px 1fr 200px;
+  width: 100%;
+  height: 100%;
 }
 #article {
-  dis
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-left: 25px;
   padding-right: 25px;
 }
-img {
+#google {
   display : block;
   margin : auto;
-  width: 100px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+#search {
+  display : block;
+  margin : auto;
+  margin-bottom: 10px;
+  width: 450px;
+}
+.buttons {
+  text-align: center;
+}
+.buttons img {
+  height: 30px;
+}
+#left, #right {
+  margin: 10px;
+  font-size: 10pt;
+}
+#right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#menu, #account {
+  margin: 3px;
+  position: relative;
+  top: -10px;
+  left: 7px;
+}
+#account {
+  margin-left: 5px;
+  width: 30px;
+}
+#right span {
+  padding-bottom: 3px;
 }
