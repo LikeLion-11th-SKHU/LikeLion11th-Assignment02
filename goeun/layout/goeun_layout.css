@@ -1,0 +1,48 @@
+a{
+    text-decoration-line: none;
+    color: gray;
+}
+.parent1{
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+}
+.parent2{
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.parent3{
+   
+    text-align: center;
+    top: 100px;
+    left: 80x;
+    position:  relative;
+   
+
+}
+.child0{
+
+    top: 150px;
+    left: 300px;
+    position: relative;
+}
+.child1{
+    width: 20px;
+    height: 10px;
+    flex-basis: 200px;
+    top: 160px ;
+    left: 450px;
+    position: relative;
+     
+}
+.child2{
+    width: 20px;
+    height: 10px;
+    flex-basis: 200px;
+    top: 150px ;
+    left:600px ;
+    position: relative;
+}
