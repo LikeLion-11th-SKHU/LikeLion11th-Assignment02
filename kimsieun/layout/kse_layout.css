@@ -1,58 +1,32 @@
-
-.inline-block {
-    display: flex;
-
-	width: 3000px;
-	height: 130px;
-
-	top: 100px;
-	left: 100px;
-}
-
 .ib1 {
-	display: flex;
-	flex-content: row;
+	display: inline-block;
+	flex-direction: row;
 
-	text-align: center;
-
-	width: 115px;
-	height: 100px;
-
-	position: relative;
+	justify-content: space-evenly;
 }
 
 
 .ib2 {
-	display: flex;
-	flex-content: row-reverse;
+	float: right;
 
-	width: 70px;
-	height: 20px;
+	display: inline-block;
+	flex-direction: row;
 
-	left: 1200px;
+	margin-left: 12px;   /* 이상하게 float만 쓰면 space-evenly가 적용이 되지 않는데 그 이유가 궁금합니다! */
 
-	position: relative;
-}
+} 
+
 
 .ib3 {
-	display: justify;
-	justify-content: center;
-
-	padding: 100px 700px 0px 700px;
-
-
+	margin-top: 150px;
+	text-align: center;
 }
 
 .ib4 {
-	display: justify;
-	justify-content: center;
-
-	padding: 0px 520px 0px 525px;
-
+	text-align: center;
 
 }
 
 .ib5 {
-	left: 720px;
-	position: relative;
-}
+	text-align: center;
+} 
