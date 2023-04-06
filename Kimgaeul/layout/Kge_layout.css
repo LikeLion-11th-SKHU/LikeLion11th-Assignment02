@@ -1,0 +1,58 @@
+
+* {
+    margin-top: 0px;
+    padding-right: 0px;
+    font-size: small;
+    color: rgb(118, 118, 118);
+}
+
+.menu1{
+    width: 20%;
+}
+
+.menu1>p{
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu2>span{
+    display: inline-block;
+    padding: 10px;
+}
+
+.header{
+    display: flex;
+}
+
+.center {
+    text-align: center;
+    position: relative;
+} 
+
+.google {
+    display: block;
+}
+
+.search {
+    display: block;
+    padding: 10px;
+}
+
+.item2 {
+    display: inline-block;
+    padding: 15px;
+}
+
+.item1 {
+    display: inline-block;
+    padding: 15px;
+}
+
+.menu2>Af{
+    padding-top: 5px;
+}
+
+.menu2>Bf{
+    padding-top: 7px;
+}
+
