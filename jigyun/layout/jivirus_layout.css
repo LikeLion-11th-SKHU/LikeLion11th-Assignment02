@@ -25,19 +25,21 @@
 }
 
 .centersection {
-	display: justify;
+	display: flex;
 	justify-content: center;
 	padding: 100px 700px 0px 700px;
 }
 
 .ccentersection {
-	display: justify;
+	display: flex;
 	justify-content: center;
 	text-align: center;
 	padding: 0px 520px 0px 525px;
 }
 
 .cccentersection {
-	position: absolute;
-	left: 750px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
