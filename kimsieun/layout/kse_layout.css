@@ -1,0 +1,35 @@
+.ib1 {
+	display: inline-block;
+	flex-direction: row;
+
+	justify-content: space-evenly;
+}
+
+
+.ib2 {
+	float: right;
+
+	display: inline-block;
+	flex-direction: row;
+
+	margin-left: 12px;   /* 이상하게 float만 쓰면 space-evenly가 적용이 되지 않는데 그 이유가 궁금합니다! */
+
+} 
+
+
+.ib3 {
+	margin-top: 150px;
+	text-align: center;
+}
+
+.ib4 {
+	text-align: center;
+
+}
+
+.ib5 {
+	text-align: center;
+
+	top: 20px;
+	position: relative;
+} 
