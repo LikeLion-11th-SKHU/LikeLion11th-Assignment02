@@ -1,0 +1,59 @@
+a{
+    text-decoration-line: none;
+    color: gray;
+}
+.flex-direction_row {
+	display: flex;
+	flex-direction: row;
+    align-items: flex-start;
+   
+}
+
+
+.flex-direction_row-reverse {
+	display: flex;
+	flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    
+}
+.parent1{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.parent3{
+   
+    text-align: center;
+    top: 100px;
+    left: 80px;
+    position:  relative;
+   
+
+}
+.child0{
+
+    top: 150px;
+    left: 450px;
+    position: relative;
+}
+.child1{
+    width: 20px;
+    height: 10px;
+    flex-basis: 200px;
+    top: 160px ;
+    left: 600px;
+    position: relative;
+     
+}
+.child2{
+    width: 20px;
+    height: 10px;
+    /* 밑에거는 기능하고 있지 않음 수정 */
+    flex-basis: 200px;
+    top: 150px ;
+    left:750px ;
+    position: relative;
+}
