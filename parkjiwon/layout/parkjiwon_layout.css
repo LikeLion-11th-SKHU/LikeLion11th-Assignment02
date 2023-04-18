@@ -1,0 +1,66 @@
+div {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.textG {
+    margin-left: 1130px;
+}
+
+.Topmenu {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+    top: 5px;
+
+}
+
+.Topaccount {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+    top: 8px;
+}
+
+.centergoogle {
+    width: 320px;
+    height: 100px;
+    left: 575px;
+    top: 120px;
+    position:relative;
+}
+
+.centersearch {
+    width: 600px;
+    height: 70px;
+    left: -150px;
+    top: 120px;
+    position: absolute;
+
+}
+
+.centertext2 {
+    width: 110px;
+    height: 30px;
+    left: 265px;
+    top: 250px;
+    position: relative;
+}
+
+
+.centertext {
+    width: 130px;
+    height: 30px;
+    left: 276px;
+    top: 250px;
+    position: relative;
+}
