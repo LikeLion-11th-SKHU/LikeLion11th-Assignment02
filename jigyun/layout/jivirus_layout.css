@@ -1,0 +1,45 @@
+.inline-block {
+    display: flex;
+	width: 3000px;
+	height: 130px;
+	top: 100px;
+	left: 100px;
+}
+
+.leftheader {
+	display: flex;
+	text-align: center;	
+	position: relative;
+	width: 110px;
+	height: 100px;
+}
+
+
+.rightheader {
+	display: flex;
+	text-align: center;
+	left: 1150px;
+	width: 73px;
+	height: 23px;
+	position: relative;
+}
+
+.centersection {
+	display: flex;
+	justify-content: center;
+	padding: 100px 700px 0px 700px;
+}
+
+.ccentersection {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 0px 520px 0px 525px;
+}
+
+.cccentersection {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
