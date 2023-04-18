@@ -1,0 +1,21 @@
+span {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.parentImage {
+    position: relative;
+    display: block;
+    margin: auto;  
+    margin-top: 150px;
+    text-align: center;
+  }
+
+.childImage {
+    position: relative;
+      display: block;
+    margin: auto;  
+    text-align: center;
+  }
+
+  /*명환님 쾌차기원*/
