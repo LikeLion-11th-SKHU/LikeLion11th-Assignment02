@@ -1,0 +1,71 @@
+.parent1{
+    text-align: left;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.googleInformation, .store{
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.googleInformation {
+    margin-left: 15px;
+}
+
+.parent2{
+    text-align: right;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.gmail, .image, .menu, .account{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.account {
+    margin-left: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.parent3{
+    text-align: center;
+    position: relative;
+    height: 290px;
+}
+
+.google{
+    position: absolute;
+    bottom: 0px;
+    right: 145px;
+    left: 145px;
+}
+
+.parent4, .parent5{
+    text-align: center;
+    position: relative;
+}
+
+.search{
+    height: 44px;
+}
