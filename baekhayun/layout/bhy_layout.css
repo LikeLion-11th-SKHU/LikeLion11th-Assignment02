@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__end {
+    display: flex;
+    align-items: center;
+	gap: 20px;
+}
+
+.body {
+	justify-content: center;
+	align-items: center;
+
+	top: 150px;
+
+	position: relative;
+}
+
+.body__start {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.body__center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.body__end {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
